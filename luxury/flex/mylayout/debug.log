@@ -1,0 +1,71 @@
+[0614/074358.184:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/074514.791:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/192151.070:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/193151.083:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/193151.084:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/193651.145:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/195151.156:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/200651.169:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/202151.172:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/203651.174:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/205151.175:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/210651.175:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/212151.177:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/213651.333:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/215151.395:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/220651.398:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/222151.398:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/223651.596:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/225151.602:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/230651.605:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/232151.611:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/233651.613:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0614/235151.619:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/000651.622:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/002151.623:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/003651.625:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/005151.626:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/010651.626:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/012151.627:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/013651.632:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/015151.633:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/020651.634:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/022151.634:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/023651.635:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/025151.637:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/030651.638:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/032151.639:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/033651.640:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/035151.641:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/040651.641:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/042151.643:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/043651.643:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/050821.286:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0615/050929.690:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.690:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.690:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.690:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.691:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.691:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.691:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.691:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.691:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.758:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.758:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.758:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.758:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.758:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.919:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.919:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.919:ERROR:process_reader_win.cc(151)] SuspendThread: Отказано в доступе. (0x5)
+[0615/050929.978:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0615/050929.691:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0615/050930.921:ERROR:exception_snapshot_win.cc(98)] thread ID 5616 not found in process
+[0615/050930.921:ERROR:exception_snapshot_win.cc(98)] thread ID 6776 not found in process
+[0615/050929.640:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0615/050929.758:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0615/050930.921:ERROR:exception_snapshot_win.cc(98)] thread ID 6088 not found in process
+[0615/050929.919:ERROR:process_reader_win.cc(123)] NtOpenThread: {Отказано в доступе} Процесс запросил доступ к объекту, но права на доступ не предоставлены. (0xc0000022)
+[0615/050930.921:ERROR:exception_snapshot_win.cc(98)] thread ID 4460 not found in process
+[0615/050930.921:ERROR:exception_snapshot_win.cc(98)] thread ID 5268 not found in process
+[0615/162220.081:ERROR:crash_report_database_win.cc(469)] failed to stat report
