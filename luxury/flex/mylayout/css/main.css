@@ -401,6 +401,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
+	
+	.btn:nth-child:1 {
+		display:none;
+	}
+	
 	.heading__btn {
 		display: none;
 	}
