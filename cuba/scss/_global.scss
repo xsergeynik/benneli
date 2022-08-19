@@ -1,0 +1,148 @@
+//Specifical
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-webkit-font-smoothing: antialiased;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: $ff-head;
+}
+h3 {
+	font-size: 24px;
+	line-height: 25px;
+}
+p {
+	line-height: 1.75em;
+}
+
+//====================================================================================================================================================================================================================================================================
+
+body {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	color: #505050;
+}
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.container_xl {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.title {
+	font-family: $ff-head;
+	font-size: 32px;
+	line-height: 38px;
+	color: #4e5665;
+	text-align: center;
+}
+
+/*====Back To Top Buttom====*/
+
+.back_to_top {
+	bottom: 40px;
+	right: 40px;
+	z-index: 9999;
+	width: 35px;
+	height: 35px;
+	background-color: #1e73be;
+	cursor: pointer;
+	position: relative;
+	opacity: 0;
+	transform: scale(0);
+	&:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 14px;
+		height: 14px;
+		border-top: 3px solid #fff;
+		border-left: 3px solid #fff;
+		transform: translate(-50%,-25%) rotate(44deg);
+		// border-right: 3px solid transparent;
+		// border-bottom: 3px solid transparent;
+		border-radius: 3px 2px 2px 2px;
+	}
+}
+.back_to_top:hover {
+	background-color: $yellow;
+	box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.3) inset;
+}
+.back_to_top.back_to_top-show {
+	transition: 0.4s ease;
+	border-radius: 5px;
+	transform: scale(1);
+	position: fixed;
+	opacity: 1;
+}

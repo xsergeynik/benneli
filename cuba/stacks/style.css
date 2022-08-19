@@ -1,0 +1,145 @@
+body {
+    height: 2000px;
+}
+
+/* <!-- Burger --> */
+
+.burger {
+	display: none;
+}
+@media screen and (max-width: 992px) {
+
+	/*Burger-menu*/
+	body.lock {
+		overflow: hidden;
+	}
+	.menu {
+	position: fixed;
+	left: 0;
+	top: -110%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.85);
+	z-index: 1;
+	text-align: center;
+	padding: 120px 0px 0px 0px;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	margin: 0px 0px 0px 0px;
+	justify-content: flex-start;
+	transition: .3s ease;
+	overflow: auto;
+	}
+	.menu.active {
+		top: 0;
+	}
+	.menu__item {
+		margin: 0px 0px 20px 0px;
+		font-size: 25px;
+	}
+	.burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		z-index: 2;
+		margin-left: auto;
+	}
+	.burger span{
+		position: absolute;
+		background-color: #fff;
+		width: 100%;
+		height: 2px;
+		top: 9px;
+		transition: .3s ease;
+	}
+	.burger:before,
+	.burger:after {
+		content: '';
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		transition: .3s ease;
+	}
+	.burger:before {
+	top: 0;
+	}
+	.burger:after {
+	bottom: 0;
+	}
+	.burger.active:before {
+		transform: rotate(45deg);
+		top: 9px;
+	}
+	.burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 9px;
+	}
+	.burger.active span {
+		transform: scale(0);
+	}
+
+}
+
+/*==================================================================================================================================================================================================================================================================== */
+
+
+/*====Back To Top Buttom====*/
+
+.back_to_top {
+	bottom: 40px;
+	right: 40px;
+	z-index: 9999;
+	width: 35px;
+	height: 35px;
+	background-color: #1e73be;
+	cursor: pointer;
+	position: relative;
+	opacity: 0;
+    transform: scale(0);
+}
+.back_to_top:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 14px;
+		height: 14px;
+		border-top: 3px solid #fff;
+		border-left: 3px solid #fff;
+		transform: translate(-50%,-25%) rotate(44deg);
+		// border-right: 3px solid transparent;
+		// border-bottom: 3px solid transparent;
+		border-radius: 3px 2px 2px 2px;
+	}
+
+.back_to_top:hover {
+	background-color: $yellow;
+	box-shadow: 0px 0px 5px rgba($color: #000000, $alpha: 0.3) inset;
+}
+.back_to_top.back_to_top-show {
+	transition: 0.4s ease;
+	border-radius: 5px;
+	transform: scale(1);
+	position: fixed;
+	opacity: 1;
+}
+
+
+/*==================================================================================================================================================================================================================================================================== */
+
+/* Easing Scroll */
+#test {
+    margin-top: 1000px;
+    font-size: 50px;
+}
+
+
+
+
+/*==================================================================================================================================================================================================================================================================== */
