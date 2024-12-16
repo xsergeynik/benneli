@@ -2,301 +2,459 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Benneli - Homepage</title>
+	<title>ACTIVELIVE - Страница Потрфолио Сергея Николаева</title>
+	<meta name="description" content="Это домашнее задания Сергея Николаева из Команды А">
+	<meta name="keywords" content="учебная страница, лендинг, wayup, вёрстка, веб-разработка, веб-верстальщик, код фрилансера, фриланс">
+	<link rel="icon" href="img/favicon.svg" type="image/x-icon">
+ 	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
+	<meta property="og:title" content="Моя десятая домашняя работа на коучинге Веб-верстальщик: Код фрилансера">
+	<meta property="og:description" content='учебная страница, лендинг, wayup, вёрстка, веб-разработка, веб-верстальщик, код фрилансера'>
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#">
+	<meta property="og:site_name" content="Портфолио Сергея Николаева">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximim-scale=1.0, user-scalable=0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<header class="header" id="header">
 		<div class="container">
-			<div class="heading">
-				<div class="heading__logo logo">
-					<a href="#">
-						<img src="img/logo.png" alt="BENNELI">
+			<div class="row">
+				<div class="col-lg-2">
+					<a href="#" class="logo">
+						<span>ACTIVE</span>LIVE
 					</a>
 				</div>
-				<nav>
-					<ul class="heading__menu">
-						<li>
+				<div class="col-lg-6 ml-auto">
+					<ul class="menu d-flex">
+						<li class="menu__item">
 							<a href="#">
-								Наши услуги
+								Main
 							</a>
 						</li>
-						<li>
-							<a href="#">
-								Преимущества
+						<li class="menu__item">
+							<a href="#fuatures">
+								Fuatures
 							</a>
 						</li>
-						<li>
-							<a href="#">
-								Схема работы
+						<li class="menu__item menu__item">
+							<a href="#gallery">
+								Gallery
 							</a>
 						</li>
-						<li>
-							<a href="#">
-								Доставка
+						<li class="menu__item">
+							<a href="#team">
+								Team
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#footer">
+								Contacts
 							</a>
 						</li>
 					</ul>
-				</nav>
-				<a href="#" class="heading__btn btn">Заказать звонок</a>
-			</div>
-			<div class="offer">
-				<h1 class="offer__title">
-					Выгодные условия. Высокая скорость. Быстрый расчет.
-				</h1>
-				<div class="offer__subtitle">
-					Поиск и доставка товаров из Китая
+					<div class="burger">
+						<span></span>
+					</div>
 				</div>
 			</div>
-			<form action="#" class="header__form form">
-				<h3 class="form__title">
-					Расчет стоимости доставки
-				</h3>
-				<div class="form__body">
-					<input type="text" name="Name" placeholder="Введите имя" required class="form__item">
-					<input type="email" name="Email" placeholder="Введите E-mail" required class="form__item">
-					<input type="text" name="tel" placeholder="Введите телефон" required class="form__item">
-					<button type="sumbit" class="form__btn btn">Заказать расчет</button>
+			<div class="row">
+				<div class="col-12">
+					<div class="offer">
+						<h1 class="offer__title">
+							THE WORLD WITHOUt LIMITATIONS
+						</h1>
+						<div class="offer__intro">
+							Active Live - this is the way to keep track of all of your activities, flights and business trips
+						</div>
+						<a href="#fuatures" class="offer__btn btn">
+							Find Out More
+						</a>
+					</div>
 				</div>
-			</form>	
+			</div>
 		</div>
 	</header>
-	<section class="services" id="services">
+	<section class="fuatures" id="fuatures">
 		<div class="container">
-			<h2 class="services__title title">
-				Наши услуги
-			</h2>
-			<div class="services__body">
-				<div class="services__row">
-					<div class="services__column">
-						<div class="services__item">
-							<div class="services__item_icon">
-								<img src="img/01.png" alt="flying">
-							</div>
-							<div class="services__item_title">
-								Авиадоставка
-							</div>
-							<div class="services__item_text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolorempor incididunt set
-							</div>
-							<div class="services__item_price">
-								<a href="#">от 150$</a>
-							</div>
-						</div>
-					</div>
-					<div class="services__column">
-						<div class="services__item">
-							<div class="services__item_icon">
-								<img src="img/02.png" alt="flying">
-							</div>
-							<div class="services__item_title">
-								Автодоставка
-							</div>
-							<div class="services__item_text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolorempor incididunt set
-							</div>
-							<div class="services__item_price">
-								<a href="#">от 250$</a>
-							</div>
-						</div>
-					</div>
-					<div class="services__column">
-						<div class="services__item">
-							<div class="services__item_icon">
-								<img src="img/03.png" alt="flying">
-							</div>
-							<div class="services__item_title">
-								Шоптуры
-							</div>
-							<div class="services__item_text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolorempor incididunt set
-							</div>
-							<div class="services__item_price">
-								<a href="#">от 350$</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="stocks" id="stocks">
-		<div class="container">
-			<h3 class="stocks__title">
-				Оставьте заявку на расчет <br>
-				прямо сейчас и получите скидку 
-				<span class="stocks__title_price">
-					-10%
-				</span>
-			</h3>
-			<div class="stocks__body">
-				<div class="stocks__row">
-					<div class="stocks__column">
-						<div class="stocks__item">
-						<h3 class="stocks__item_title">
-							До конца акции:
-						</h3>
-						<p class="stocks__item_text">
-							Успейте воспользоваться предложением
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon1.png" alt="Pencil" class="fuature__img">
+						<h4 class="fuature__title">
+							Easily Customised
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
 						</p>
-						</div>
 					</div>
-					<div class="stocks__column">
-						<div class="stocks__timer">
-							36
-							<span class="stocks__timer_text">
-								минут
-							</span>
-						</div>	
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon2.png" alt="Desktop" class="fuature__img">
+						<h4 class="fuature__title">
+							READY TO USE
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon3.png" alt="Light bulb" class="fuature__img">
+						<h4 class="fuature__title">
+							FULL OF IDEAS FOR YOU
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon4.png" alt="Atom" class="fuature__img">
+						<h4 class="fuature__title">
+							SMART AI INSIDE
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon5.png" alt="Portfolio" class="fuature__img">
+						<h4 class="fuature__title">
+							PERFECT FOR BUSINESS
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="fuature">
+						<img src="img/icon6.png" alt="Cloud" class="fuature__img">
+						<h4 class="fuature__title">
+							FREE ACCESS
+						</h4>
+						<p class="fuature__text">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="rates" id="rates">
+	<section class="gallery" id="gallery">
 		<div class="container">
-			<h2 class="rates__title title">
-				Расценки на наши услуги
-			</h2>
-			<table class="rates__table">
-				<tr class="rates__table_item">
-					<th>
-						Расстояние/ <br>
-						способ
-					</th>
-					<th>
-						До 1000 км.
-					</th>
-					<th>
-						До 2000 км.
-					</th>
-					<th>
-						До 3000 км.
-					</th>
-					<th>
-						До 4000 км.
-					</th>
-					<th>
-						До 5000 км.
-					</th>
-				</tr>
-				<tr class="rates__table_item">
-					<th>
-						Авиадоставка
-					</th>
-					<td>
-						$654 
-					</td>
-					<td>
-						$754  
-					</td>
-					<td>
-						$854 
-					</td>
-					<td>
-						$954 
-					</td>
-					<td>
-						$1054
-					</td>                                                               
-				</tr>
-				<tr class="rates__table_item">
-					<th>
-						Автодоставка
-					</th>
-					<td>
-						
-					</td>
-					<td>
-						$746  
-					</td>
-					<td>
-						$956 
-					</td>
-					<td>
-						$20
-					</td>
-					<td>
-						
-					</td>                                                               
-				</tr>
-				<tr class="rates__table_item">
-					<th>
-						Шоп-тур
-					</th>
-					<td>
-						 
-					</td>
-					<td>
-						 
-					</td>
-					<td>
-						
-					</td>
-					<td>
-						 
-					</td>
-					<td>
-						$3454
-					</td>                                                               
-				</tr>
-				<tr class="rates__table_item">
-					<th>
-						Другое
-					</th>
-					<td>
-						$128
-					</td>
-					<td>
-						$129  
-					</td>
-					<td>
-						$130 
-					</td>
-					<td>
-						$131 
-					</td>
-					<td>
-						$132
-					</td>
-				</tr>
-			</table>
+			<div class="row">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-1.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-1.jpg" title="Work#1">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-2.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-2.jpg" title="Work#2">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-3.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-3.jpg" title="Work#3">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-4.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-4.jpg" title="Work#4">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-5.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-5.jpg" title="Work#5">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-6.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-6.jpg" title="Work#6">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-7.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-7.jpg" title="Work#7">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-12">
+					<div class="projects">
+						<img src="img/pic-8.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-8.jpg" title="Work#8">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+					</div>
+				</div>
+			</div>
+			<!-- For Md Only -->
+			<div class="d-lg-none d-sm-none d-md-block col-md-4">
+					<div class="projects">
+						<img src="img/pic-9.jpg" alt="Gallery Picture" class="projects__pic">
+						<div class="projects__overlay">
+							<a href="img/pic-9-gallery.jpg" title="Work#9">
+								<h4 class="projects__title">
+									Project Name
+								</h4>
+								<div class="projects__desc">
+									User Interface Design
+								</div>
+							</a>
+						</div>
+					</div>
+			</div>
 		</div>
 	</section>
-	<section class="payment" id="payment">
+	<section class="team" id="team">
 		<div class="container">
-			<form action="#" class="form">
-				<h3 class="form__title">
-					Расчет стоимости доставки
-				</h3>
-				<div class="form__body">
-					<input type="text" name="Name" placeholder="Введите имя" class="form__item" required>
-					<input type="email" name="Email" placeholder="Введите E-mail" class="form__item" required>
-					<input type="text" name="tel" placeholder="Введите телефон" class="form__item" required>
-					<button type="sumbit" class="form__btn btn">Заказать расчет</button>
+			<div class="row">
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="user">
+						<img src="img/userpic-1.jpg" alt="Userpic#1">
+						<h3 class="user__name">
+							Ruth Woods
+						</h3>
+						<div class="user__prof">
+							Founder, CEO
+						</div>
+						<p class="user__text">
+							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+						</p>
+						<div class="user__icons">
+							<a href="#" class="user__icon  user__icon_f"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="user__icon user__icon_t"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="user__icon"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
 				</div>
-			</form>	
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="user">
+						<img src="img/userpic-2.jpg" alt="Userpic#2">
+						<h3 class="user__name">
+							Timothy Reed
+						</h3>
+						<div class="user__prof">
+							Co-Founder, Developer
+						</div>
+						<p class="user__text">
+							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+						</p>
+						<div class="user__icons">
+							<a href="#" class="user__icon user__icon_f"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="user__icon user__icon_t"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="user__icon"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="user">
+						<img src="img/userpic-3.jpg" alt="Userpic#3">
+						<h3 class="user__name">
+							Victoria Valdez
+						</h3>
+						<div class="user__prof">
+							UI Designer
+						</div>
+						<p class="user__text">
+							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+						</p>
+						<div class="user__icons">
+							<a href="#" class="user__icon user__icon_f"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="user__icon user__icon_t"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="user__icon"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-6 col-md-6">
+					<div class="user">
+						<img src="img/userpic-4.jpg" alt="Userpic#4">
+						<h3 class="user__name">
+							Beverly Little
+						</h3>
+						<div class="user__prof">
+							Data Scientist
+						</div>
+						<p class="user__text">
+							Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+						</p>
+						<div class="user__icons">
+							<a href="#" class="user__icon user__icon_f"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="user__icon user__icon_t"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="user__icon"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="comment" id="comment">
+		<div class="container-fluid container-fluid_plain">
+			<div class="row no-gutters">
+				<div class="col-lg-6">
+					<div class="client"></div>
+				</div>
+				<div class="col-lg-6">
+					<div class="quote">
+						<h2 class="quote__caption">
+							“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+						</h2>
+						<div class="quote__desc">
+							 Susan Sims, Interaction Designer at XYZ
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="download" id="download">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="start d-flex">
+						<h2 class="start__title">
+							Are You Ready to Start? Download Now For Free!
+						</h2>
+						<div class="start__subtitle">
+							Fusce dapibus, tellus ac cursus commodo
+						</div>
+						<a href="#" class="start__btn btn">
+							Download Here
+						</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<footer class="footer" id="footer">
 		<div class="container">
-			<div class="credits">
-				<div class="credits__logo logo">
-					<a href="#">
-						<img src="img/logo.png" alt="BENNELI">
-					</a>
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="footer__inner">
+						<h4 class="footer__title">
+							Location
+						</h4>
+						<p class="footer__info footer__info_small m-auto">
+							3481 Melrose Place
+							Beverly Hills, CA 90210
+						</p>
+					</div>
 				</div>
-				<p class="credits__info">
-					© Все права защищены
-				</p>				
-					<a href="tel:+74950535365" class="credits__tel">
-						+7 495 053-53-65
-					</a>				
+				<div class="col-lg-4 col-md-4">
+					<div class="footer__inner">
+						<h4 class="footer__title">
+							Share with Love
+						</h4>
+						<p class="footer__info footer__info_grey">
+							Copyright © 2015 ActiveBox. All Rights Reserved
+							Made with 
+							<span class="footer__info_red">Y</span> 
+							<span class="footer__info_bold">by Kamal Chaneman</span>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+					<div class="footer__inner">
+						<h4 class="footer__title">
+							About ActiveBox
+						</h4>
+						<p class="footer__info">
+							Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
-<script src="js/jquery-3.5.1.min.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/main.js"></script>
-</body> 
+</body>
 </html>
